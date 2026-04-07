@@ -19,7 +19,7 @@ function Write-Log {
     
     switch ($Niveau) {
         "Info" { Write-Host $ligneLog -ForegroundColor Cyan }
-        "Warning" { Write-Host $ligneLog -ForegroundColor Yellow}
+        "Warning" { Write-Host $ligneLog -ForegroundColor Yellow }
         "Error" { Write-Host $ligneLog -ForegroundColor Red }
     }
 }
